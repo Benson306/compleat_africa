@@ -1,9 +1,14 @@
 /********** Template CSS **********/
 :root {
-    --primary: #0033cc;
+    /* 0033cc */
+    --primary: #002080;
     --secondary: #999999;
     --light: #F2F8FE;
+    /* --light: #; F2F8FE */
     --dark: #111111;
+    --background: #0033cc;
+    --green:#43ff64d9;
+    /* ; */
 }
 
 .back-to-top {
@@ -88,14 +93,17 @@ h6,
 .navbar .navbar-nav .nav-link {
     margin-right: 30px;
     padding: 25px 0;
-    color: var(--dark);
+    color: var(--light);
     font-weight: 500;
     outline: none;
 }
 
-.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link:hover{
+    color: var(--green);
+}
+
 .navbar .navbar-nav .nav-link.active {
-    color: var(--primary);
+    color: var(--light);
 }
 
 .navbar .dropdown-toggle::after {
@@ -114,7 +122,7 @@ h6,
     }
 
     .navbar .navbar-nav {
-        border-top: 1px solid #EEEEEE;
+        border-top: 1px solid var(--secondary);
     }
 }
 
@@ -307,7 +315,7 @@ h6,
     margin-bottom: 5px;
     padding: 0;
     text-align: left;
-    color: var(--secondary);
+    color: var(--light);
     font-weight: normal;
     text-transform: capitalize;
     transition: .3s;
@@ -323,7 +331,7 @@ h6,
 }
 
 .footer .btn.btn-link:hover {
-    color: var(--primary);
+    color: var(--secondary);
     letter-spacing: 1px;
     box-shadow: none;
 }
