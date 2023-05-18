@@ -177,7 +177,7 @@ h6,
 }
 
 .service-item.bg-white::after {
-    border-color: transparent transparent var(--light) transparent;
+    border-color: transparent transparent #e6e6ff transparent;
 }
 
 .service-item.bg-light::after {
