@@ -103,7 +103,7 @@ h6,
 }
 
 .navbar .navbar-nav .nav-link.active {
-    color: var(--light);
+    color: var(--green);
 }
 
 .navbar .dropdown-toggle::after {
